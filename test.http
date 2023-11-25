@@ -1,0 +1,23 @@
+GET https://morning-sea-81620-bb2e9f0db389.herokuapp.com/api/flowers/list
+
+###
+POST https://morning-sea-81620-bb2e9f0db389.herokuapp.com/api/flowers/add/
+Content-Type: application/json
+
+{
+  "id": 51,
+  "color": "blue",
+  "price": 100.0,
+  "sepalLength": 100
+}
+
+###
+POST https://morning-sea-81620-bb2e9f0db389.herokuapp.com/api/flowers/add/
+Content-Type: application/json
+
+{
+  "id": 52,
+  "color": "red",
+  "price": 50.0,
+  "sepalLength": 20
+}
